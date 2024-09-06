@@ -93,7 +93,8 @@ blockquote {
 
 html, #container, .inner { background-color: transparent; }
 html {
-  background-color: #00274C; /* Updated to your preferred hex color */
+  background: url('gradient.jpeg') center center no-repeat fixed; /* Updated to use your background image */
+  background-size: cover; /* Ensures the image covers the entire background */
 }
 body {
   max-width: 800px;

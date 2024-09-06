@@ -28,17 +28,21 @@
   <body>
 
     <header id="header">
-      <img src="head.jpg">
-      <h1>Kennedy Smucker</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#About">About</a></li>
-        <li><a href="#Research">Research</a></li>
-        <li><a href="#Contact">Contact</a></li>
-        <li><a href="ksresume.pdf" target="_blank">Resume</a></li>
-      </ul>                 
-    </header>
+      <div class="image-container">
+        <img src="head.jpg" class="left-image"> <!-- Existing image on the left -->
+        <h1>Kennedy Smucker</h1>
+        <img src="michigan.png" class="right-image"> <!-- New image on the right -->
+      </div>
+  
+  <!-- Menu -->
+  <ul class="main-menu">
+      <li><a href="#About">About</a></li>
+      <li><a href="#Research">Research</a></li>
+      <li><a href="#Contact">Contact</a></li>
+      <li><a href="ksresume.pdf" target="_blank">Resume</a></li>
+    </ul>                 
+  </header>
+
    
     <div id="container">
       <div class="inner">

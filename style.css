@@ -91,19 +91,18 @@ blockquote {
  * Layout styles
  */
 
-html, #container, .inner { background-color:transparent;}
+html, #container, .inner { background-color: transparent; }
 html {
-  background:url(background.jpg) center center no-repeat fixed;
-  background-size:cover;
+  background-color: #00274C; /* Updated to your preferred hex color */
 }
 body {
-  max-width:800px;
-  margin:25px auto;
+  max-width: 800px;
+  margin: 25px auto;
 }
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
-  padding:25px;
-  color:#FFFFFF; 
+  padding: 25px;
+  color: #FFFFFF; 
   border-radius: 15px;
   margin-bottom: 20px;
 }
@@ -118,23 +117,23 @@ ul.main-menu {
   list-style: none;
 }
 ul.main-menu li a {
-  margin-right:20px;
-  font-size:2.0rem;
+  margin-right: 20px;
+  font-size: 2.0rem;
   border-bottom: solid transparent 3px;
-  color:#cfd2da;
+  color: #cfd2da;
 }
 ul.main-menu li a:hover {
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 ul.main-menu li a.active {
-  color:#FFFFFF;
-  border-bottom-color:#EF6D3D;
+  color: #FFFFFF;
+  border-bottom-color: #EF6D3D;
 }
 
 /* Utility classes */
 .hide {
-  display:none;
+  display: none;
 }
 .show {
-  display:block;
+  display: block;
 }

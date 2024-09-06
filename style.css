@@ -18,6 +18,20 @@ body {
   color: #FFFFFF;
 }
 
+.image-container {
+  display: flex;
+  justify-content: space-between; /* Ensures the images are on opposite sides */
+  align-items: center; /* Vertically aligns content */
+  width: 100%; /* Ensures the container takes up full width */
+}
+
+.left-image, .right-image {
+  width: 100px; /* Adjust the size of the images as needed */
+  height: auto;
+  border-radius: 15px;
+}
+
+
 /**
  * Links
  */

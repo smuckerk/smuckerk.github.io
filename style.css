@@ -21,11 +21,11 @@ body {
 .animated-gradient {
   font-size: 3rem;
   font-weight: bold;
-  background: linear-gradient(270deg, #00274C, #FFCB05, #75988D, #A5A508);
+  background: linear-gradient(270deg, #ff6b6b, #f9ca24, #48dbfb, #2ed573);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient-animation 12s ease infinite;
+  animation: gradient-animation 15s ease infinite; /* Slower gradient animation */
 }
 
 @keyframes gradient-animation {
@@ -39,6 +39,7 @@ body {
     background-position: 0% 50%;
   }
 }
+
 
 
 .image-container {

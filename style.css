@@ -18,26 +18,24 @@ body {
   color: #FFFFFF;
 }
 
-.animated-gradient {
-  font-size: 3rem;
-  font-weight: bold;
-  background: linear-gradient(270deg, #ff6b6b, #f9ca24, #48dbfb, #2ed573);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradient-animation 15s ease infinite; /* Slower gradient animation */
-}
-
-@keyframes gradient-animation {
+/* Create the gradient animation */
+@keyframes gradientBackground {
   0% {
-    background-position: 0% 50%;
+    background-color: #00274C;
   }
   50% {
-    background-position: 100% 50%;
+    background-color: #FFCB05;
   }
   100% {
-    background-position: 0% 50%;
+    background-color: #00274C;
   }
+}
+
+/* Apply the gradient animation to the entire page */
+html {
+  background: linear-gradient(90deg, #00274C, #FFCB05);
+  background-size: 400% 400%;
+  animation: gradientBackground 60s ease infinite; /* Adjust time for slower or faster transitions */
 }
 
 

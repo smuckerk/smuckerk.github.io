@@ -33,7 +33,7 @@ body {
 
 /* Apply the gradient animation to the entire page */
 html {
-  background: linear-gradient(90deg, #00274C, #FFCB05, #00274C);
+  background: linear-gradient(90deg, #00274C, #FFCB05);
   background-size: 200% 200%; /* Makes the gradient large enough to move */
   animation: gradientBackground 60s ease infinite; /* Adjust time for slower or faster transitions */
 }

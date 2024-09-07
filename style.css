@@ -21,21 +21,21 @@ body {
 /* Create the gradient animation */
 @keyframes gradientBackground {
   0% {
-    background-color: #00274C;
+    background-position: 0% 50%;
   }
   50% {
-    background-color: #FFCB05;
+    background-position: 100% 50%;
   }
   100% {
-    background-color: #00274C;
+    background-position: 0% 50%;
   }
 }
 
 /* Apply the gradient animation to the entire page */
 html {
-  background: linear-gradient(90deg, #00274C, #FFCB05);
-  background-size: 400% 400%;
-  animation: gradientBackground 1s ease infinite; /* Adjust time for slower or faster transitions */
+  background: linear-gradient(90deg, #00274C, #FFCB05, #00274C);
+  background-size: 200% 200%; /* Makes the gradient large enough to move */
+  animation: gradientBackground 60s ease infinite; /* Adjust time for slower or faster transitions */
 }
 
 /* Style the image container */

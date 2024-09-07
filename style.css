@@ -35,7 +35,7 @@ body {
 html {
   background: linear-gradient(90deg, #00274C, #FFCB05);
   background-size: 400% 400%;
-  animation: gradientBackground 60s ease infinite; /* Adjust time for slower or faster transitions */
+  animation: gradientBackground 1s ease infinite; /* Adjust time for slower or faster transitions */
 }
 
 /* Style the image container */
